@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Torc Infotech · Decks</title>
+<meta name="description" content="Strategy decks and growth plans by Torc Infotech." />
+<meta name="robots" content="noindex, nofollow" />
+
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="_shared/torc-deck-styles.css">
+<style>
+  body { overflow: auto; }
+  .landing {
+    min-height: 100vh;
+    padding: 8vh 6vw;
+    max-width: 980px;
+    margin: 0 auto;
+  }
+  .landing-header {
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+  }
+  .landing-mark {
+    display: flex; align-items: center; gap: 0.6rem;
+    font-weight: 700; font-size: 0.85rem;
+  }
+  .landing-mark::before {
+    content: ""; display: inline-block; width: 8px; height: 8px; background: var(--blue);
+  }
+  .landing-title {
+    margin-top: 1.6rem;
+    font-weight: 900;
+    font-size: clamp(2.4rem, 5vw, 3.6rem);
+    line-height: 0.98;
+    letter-spacing: -0.03em;
+  }
+  .landing-sub {
+    margin-top: 0.8rem;
+    color: var(--ink-mute);
+    font-size: 0.9rem;
+    max-width: 60ch;
+    line-height: 1.55;
+  }
+  .deck-list {
+    display: grid;
+    gap: 0;
+  }
+  .deck-row {
+    display: grid;
+    grid-template-columns: 60px 1fr auto;
+    gap: 1.4rem;
+    padding: 1.4rem 0;
+    border-bottom: 1px solid var(--rule);
+    align-items: baseline;
+    text-decoration: none;
+    color: var(--ink);
+    transition: background 0.15s;
+  }
+  .deck-row:hover {
+    background: var(--offwhite);
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+  .deck-num {
+    font-weight: 900;
+    font-size: 1rem;
+    color: var(--blue);
+    letter-spacing: -0.01em;
+  }
+  .deck-info-title {
+    font-weight: 700;
+    font-size: 1.05rem;
+    color: var(--ink);
+    margin-bottom: 0.3rem;
+  }
+  .deck-info-sub {
+    font-size: 0.8rem;
+    color: var(--ink-mute);
+    line-height: 1.45;
+  }
+  .deck-meta {
+    font-size: 0.66rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    line-height: 1.4;
+    text-align: right;
+  }
+  .footer-note {
+    margin-top: 4rem;
+    padding-top: 1.4rem;
+    border-top: 1px solid var(--rule);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+</style>
+</head>
+<body>
+
+<div class="landing">
+  <div class="landing-header">
+    <div class="landing-mark">Torc Infotech</div>
+    <h1 class="landing-title">Decks &amp; <em>Strategy Memos</em></h1>
+    <p class="landing-sub">Strategy decks, growth plans, and proposals authored by Torc Infotech for clients and partners. Each deck is a working document — versions are dated and links may update as plans evolve.</p>
+  </div>
+
+  <div class="deck-list">
+    <a class="deck-row" href="/sharath/">
+      <div class="deck-num">01</div>
+      <div>
+        <div class="deck-info-title">Sharath Mascarenhas — 90-Day Growth Plan</div>
+        <div class="deck-info-sub">Family CFO practice. Performance, content, and outbound automation. Version 3.</div>
+      </div>
+      <div class="deck-meta">Apr 2026<br>v3</div>
+    </a>
+  </div>
+
+  <div class="footer-note">
+    <span>Torc Infotech · Confidential</span>
+    <span>abhijith@torcinfotech.com</span>
+  </div>
+</div>
+
+</body>
+</html>
